@@ -1,0 +1,33 @@
+name: ah_cha
+description: A Flutter app to manage and remind about frequent purchases.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.15
+  intl: ^0.18.1
+  url_launcher: ^6.1.11
+  flutter_local_notifications: ^14.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
